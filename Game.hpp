@@ -5,10 +5,10 @@
  * @author Erel Segal-Halevi
  * @since  2020-05
  */
-// ************************************************
-// remove b4 handing in
-typedef unsigned int uint;
-// ************************************************
+// // ************************************************
+// // remove b4 handing in
+// typedef unsigned int uint;
+// // ************************************************
 #include <string>
 #include <vector>
 

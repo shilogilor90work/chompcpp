@@ -5,9 +5,10 @@ namespace chomp {
     {
       this->name = name;
     };
-    std::ostream& operator<<(std::ostream& os, const Player& obj)
-{
-      os << obj.name;
-      return os;
-}
+
 	};
+  inline std::ostream& operator<<(std::ostream &out, const chomp::Player& p)
+  {
+      out << p.name;
+      return out;
+  };

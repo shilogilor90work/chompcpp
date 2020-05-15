@@ -19,6 +19,7 @@ int main() {
     chomp::Player& the_winner = chomp::play(7, 4, horizontal1, horizontal2);
     cout << the_winner << endl;  // HorizontalEater[1]
 
+
     // chomp::Loser loser;
     // cout << chomp::play(7, 4, horizontal1, loser) << endl;  // HorizontalEater[1]
     // cout << chomp::play(7, 4, loser, horizontal2) << endl;  // HorizontalEater[2]
